@@ -13,13 +13,13 @@ public class UserInterface
 	private Controller ctrl = new Controller();
 
 	public void getDataFromCtrl1(){
-		ctrl.process("ABC");
+		ctrl.process("AAPL");
 	}
 
-	public void getDataFromCtrl2(){
+	public void getDataFromCtrl2(){ ctrl.process("AMZN");
 	}
 
-	public void getDataFromCtrl3(){
+	public void getDataFromCtrl3(){ ctrl.process("GOOG");
 
 	}
 	public void getDataFromCtrl4(){
