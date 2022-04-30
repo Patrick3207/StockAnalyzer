@@ -3,11 +3,7 @@ package stockanalyzer.ctrl;
 import stockanalyzer.ui.UserInterface;
 import yahooApi.YahooFinance;
 import yahooApi.beans.QuoteResponse;
-import yahooApi.beans.Result;
 import yahooApi.beans.YahooResponse;
-
-
-import java.text.DecimalFormat;
 import java.util.ArrayList;
 
 public class Controller {
